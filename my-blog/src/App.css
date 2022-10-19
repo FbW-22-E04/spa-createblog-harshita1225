@@ -1,0 +1,56 @@
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-container {
+  background-color: rgb(172, 163, 163);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin: 0.2rem 0;
+}
+
+.create-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* styling showPost page */
+
+.show-post {
+  height: 50vh;
+  margin-left: 25%;
+  padding: 5rem;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
